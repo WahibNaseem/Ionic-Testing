@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>{{ this.name }} - Shop Page</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+  <button ion-button (click)="onGoToBuy({name: 'Milk' , quantity: 1})">Milk</button>
+  <br>
+  <button ion-button (click)="onGoToBuy({name: 'Eggs' , quantity: 8})">Eggs</button>
+  <br>
+  <button ion-button (click)="onGoToBuy({name:'Bread' , quantity: 1})">Bread</button>
+  <br>
+  <button ion-button (click)="onGoToBuy({name: 'Apples' , quantity: 6})">Apples</button>
+  <br>
+  <button ion-button (click)="onGoToBuy({name: 'Oranges' , quantity: 14})">Oranges</button>
+</ion-content>
